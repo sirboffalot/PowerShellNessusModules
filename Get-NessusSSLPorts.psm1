@@ -15,7 +15,7 @@ function Get-NessusSSLPorts
     [OutputType([string])]
     Param
     (
-        # File the path to a CSV file
+        # File the path to a .nessus file
         [Parameter(Mandatory=$true,
                    ValueFromPipelineByPropertyName=$true,
                    Position=0)]
